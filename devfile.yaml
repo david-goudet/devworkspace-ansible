@@ -4,7 +4,7 @@ metadata:
 components:
   - name: tooling-container
     container:
-      image: default-route-openshift-image-registry.apps.dgoudetocpman.tamlab.brq2.redhat.com/devspaces/ds-ansible:latest
+      image: image-registry.openshift-image-registry.svc:5000/devspaces/ds-ansible:latest
       memoryRequest: 256M
       memoryLimit: 6Gi
       cpuRequest: 250m
